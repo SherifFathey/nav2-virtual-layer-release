@@ -1,0 +1,14 @@
+ros-jazzy-nav2-virtual-layer (0.0.1-1noble) noble; urgency=high
+
+  * Initial release of nav2_virtual_layer for ROS 2 Jazzy.
+  * Dynamic virtual restriction layer for Nav2 costmap 2D.
+  * Support dynamic shapes: Circle, Line, Polygon.
+  * Add services for adding and removing shapes (AddCircle, AddLine, AddPolygon, RemoveShape).
+  * Support shape ID system, ID-based removal, and reload service.
+  * Support time-based shape expiration (duration).
+  * Add visualization markers support in RViz.
+  * Contributors: Sherif Fathey
+
+ -- "Sherif Fathey" <sherif.fathey@outlook.com>  Wed, 25 Nov 2026 22:00:00 -0000
+
+
