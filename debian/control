@@ -1,0 +1,12 @@
+Source: ros-jazzy-nav2-virtual-layer
+Section: misc
+Priority: optional
+Maintainer: "Sherif Fathey" <sherif.fathey@outlook.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-index-cpp, ros-jazzy-geometry-msgs, ros-jazzy-nav2-costmap-2d, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rosidl-default-generators, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace, ros-jazzy-rosidl-typesupport-fastrtps-c, ros-jazzy-rosidl-typesupport-fastrtps-cpp
+Homepage: https://github.com/SherifFathey/nav2-virtual-layer
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-nav2-virtual-layer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ament-index-cpp, ros-jazzy-geometry-msgs, ros-jazzy-nav2-costmap-2d, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace
+Description: Virtual restriction layer for Nav2 costmap
